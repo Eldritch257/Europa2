@@ -1,0 +1,36 @@
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/Matrix.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Georgia', serif;
+    color: #24c50f;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #24c50f
+}
+
+nav a {
+    color: #24c50f;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: #ddd;
+}
+
+footer {
+    font-size: 0.8em;
+    margin: top 20px;
+    text-align: center;
+}
