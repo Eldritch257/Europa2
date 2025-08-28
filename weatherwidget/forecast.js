@@ -1,7 +1,7 @@
 const apiKey = "11cddde5c5e5efdcd45e14b09d41b4c9";
 
 document.getElementById("getForecastBtn")?.addEventListener("click", () => {
-    const city = document.getElementById("forecastCityInput").ariaValueMax.trim();
+    const city = document.getElementById("forecastCityInput").value.trim();
     if (city) {
         localStorage.setItem("lastForecastCity", city);
         fetchFiveDayForecast(city);
@@ -13,7 +13,7 @@ document.getElementById("getForecastBtn")?.addEventListener("click", () => {
             console.log(data);
 
             if (data.cod !== "200") {
-                alert(`Error: ${data.messagfe}`);
+                alert(`Error: ${data.message}`);
                 return;
             }
 
