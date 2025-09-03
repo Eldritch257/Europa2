@@ -7,11 +7,15 @@
         <li><a href="interests.html">Interests</a></li>
         <li><a href="favorites.html">Favorite Sites</a></li>
         <li><a href="plans.html">Future Plans</a></li>
-        <li><a href="guess-number/index.html"> Guess A Number Game</a></li>
-        <li><a href="weatherwidget/index.html"> Weather Widget</a></li>
       </ul>
     </nav>
   </header>
+
+  <section class="hero">
+    <h1>Welcome to my Portfolio</h1>
+    <p>Showcasing my work, creativity, and coding journey.</p>
+    <a href="projects.html" class="btn">View My Projects</a>
+  </section>
 
   <section id="slideshow-container">
     <img id="slideshow-img" src="images\slide1.jpeg" alt="Slideshow Image">
@@ -23,13 +27,8 @@
         <h1> Welcome to My Website!</h1>
         <img src="images/MELOL.jpg" alt="Photo Of Connor Ward">
         <h2>About Me</h2>
-        <p> Hello There! My name is Connor Ward. I'm currently in the Information Technology and Cybersecurity Degree at Neumont College Of Computer Science.
-            I am very passionate about video games, Dungeons and Dragons and movies. Building this website was actually a lot more fun than I expected it to be.</p>
-        <p> I consider myself to be an incredibly caring and curious person. I love hearing people's opinions on many, MANY things and discussing those topics with them.
-            I hope that this website going forward can help bring that to light.
-        </p> IF you would like to contact me, here is my following information: 
-              Email: cward@.student.neumont.edu
-              Phone: 601-320-1326
+        <p>I'm passionate about this journey of mine, going through web development, information Technology and Systems, It is an incredible journey.</p>
+        <a href="about.html" class="btn">Learn More About Me</a>
       </div>
 
       <div class="quote-slideshow">
@@ -38,8 +37,16 @@
     </section>
   </main>
 
+  <section class="weather-section">
+    <h2> Check the Weather</h2>
+    <input type="text" id="forecastCityInput" placeholder="Enter city name">
+    <button id="getForecastBtn">Get 5-Day Forecast</button>
+    <div id="forecastDisplay"></div>
+  </section>
+
   <script src="slideshow.js"> </script>
   <script src="quotes.js"> </script>
+  <script src="weatherwidget/forecast.js"></script>
 
   <footer>
     <p>Copyright ©2025 by Connor Ward</p>
